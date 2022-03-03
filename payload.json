@@ -1,0 +1,13 @@
+{
+  "id": "c1342955-6fd6-4184-80b5-4fda9e1ef551",
+  "number": 17,
+  "haveYouSaidHello": true,
+  "waysToSayHello": [
+    "Guttendag",
+    "Ola"
+  ],
+  "helloID": {
+    "language": "French",
+    "id": "c1342955-6fd6-4184-80b5-4fda9e1ef551"
+  }
+}
