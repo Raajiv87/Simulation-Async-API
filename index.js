@@ -45,7 +45,7 @@ fs.watchFile('./payload.json', async function(event, filename){
             console.log(arrayOfObjects);
             const sendUpdatedData = () => {
                 const serverOptions = {
-                    uri: '{yourLocalHostOrDevelopmentServer}',
+                    uri: '{yourLocalHostOrDevelopmentServer}/{yourChannel}',
                     body: JSON.stringify(arrayOfObjects),
                     method: 'POST',
                     headers: {
