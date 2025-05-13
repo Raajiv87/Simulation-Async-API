@@ -27,7 +27,7 @@ fs.watchFile('./payload.json', async function(event, filename){
         {
             headers: {
                 Accept: 'application/json',
-                Authorization: 'Basic base64Encoded{yourAPI:yourSecret}',
+                Authorization: 'aaaaaaaaaaaaaaaaaaaaaaaaaaaa',
                 'Cache-Control': 'no-cache'
             }
         } ) 
@@ -45,17 +45,17 @@ fs.watchFile('./payload.json', async function(event, filename){
             console.log(arrayOfObjects);
             const sendUpdatedData = () => {
                 const serverOptions = {
-                    uri: '{yourLocalHostOrDevelopmentServer}/{yourChannel}',
+                    uri: 'sddadadasdasdsadasdasd/3000/event/crm/parts/leads',
                     body: JSON.stringify(arrayOfObjects),
                     method: 'POST',
                     headers: {
                         'X-Request-Id': uuidv4(),
                         'Content-Type': 'application/json',
                         'Accept':'application/json',
-                        'Authorization': 'Bearer ' + token,
+                        'Authorization': 'Bearer ' asadasddsaddasdsadadasdasd,
                         'Enrollment-Id':'b99efbcf-090f-4ec7-a420-be3f709a471c',
                         'Source-Owner-Id':'14022b37-d996-4f57-90ca-3aa97b7cc42c',
-                        'Data-Owner-Id':'{yourDataOwnerID}',
+                        'Data-Owner-Id':'rchowdharr',
                         'Origin-Request-Id':'ea7314d7-85eb-4847-8c26-c15151e2b965',
                         'deliveredTimestamp': timestamp.utc("YYYY-MM-DD") +'T' + timestamp.utc("HH:mm:ss.ms") + 'Z',
                     }
